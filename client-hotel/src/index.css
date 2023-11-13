@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400;500;600;700&family=Libre+Franklin:wght@400;500&family=Merriweather:wght@300;400&family=Oswald:wght@500&family=Suranna&family=Work+Sans:wght@200&display=swap");
+
+.html {
+  /* font-family: 'Edu TAS Beginner', cursive; */
+  font-family: "Libre Franklin", sans-serif;
+  /* font-family: 'Merriweather', serif; */
+  background-color: red;
+}
+.review {
+  font-family: "Work Sans", sans-serif;
+}
+
+.logo {
+  /* font-family: "Oswald", sans-serif; */
+  /* font-family: "Suranna", serif; */
+  font-family: "Edu TAS Beginner", cursive;
+
+  font-size: 20px;
+}
+
+.allFont {
+  font-family: "Libre Franklin", sans-serif;
+}
+
+.bigtxt {
+  font-family: "Merriweather", serif;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.rate {
+  color: black;
+}
+
+/* swiper */
+
+#app {
+  height: 100%;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
